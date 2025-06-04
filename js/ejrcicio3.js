@@ -24,16 +24,18 @@ switch (opciones) {
   case 4:
     opcion = "Depósito en curso...";
     break;
-  case 1:
-    opcion = "";
+  case 5:
+    opcion = "Redirigiendo para cambiar la clave...";
     break;
-  case 1:
-    opcion = "";
+  case 6:
+    opcion = "Preparando transferencia...";
     break;
-  case 1:
-    opcion = "";
+  case 7:
+    opcion = "Gracias por usar el cajero. ¡Hasta pronto!";
     break;
-  case 1:
-    opcion = "";
+  default:
+    opcion = "Opción inválida. Por favor, seleccioná una opción del 1 al 7.";
     break;
 }
+console.log(opcion);
+
